@@ -12,7 +12,7 @@ from pathlib import Path
 
 class PixelUpscaler:
     def __init__(self):
-        self.supported_formats = ['.png', '.jpg', '.jpeg', '.bmp', '.tiff', '.webp']
+        self.supported_formats = ['.png']
         
     def upscale_image(self, input_path, output_path, scale_factor=2):
         """
